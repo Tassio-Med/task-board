@@ -28,3 +28,39 @@
   margin: 28px;
   line-height: 150%;
 }
+
+.infoContext {
+  display: flex;
+  align-items: cente;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: #fafafa;
+  border-radius: 4px;
+  transition: transform 0.4s;
+}
+
+.box:hover {
+  transform: scale(1.08);
+}
+
+@media screen and (max-width: 580px){
+  .hero {
+    max-width: 80%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .infoContext {
+    flex-direction: column;
+  }
+  
+  .box {
+    width: 80%;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+}
