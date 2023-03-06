@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          Tarefas + | IHUUUUU
+          Tasks | Home
         </title>
       </Head>
       <main className={styles.main}>
