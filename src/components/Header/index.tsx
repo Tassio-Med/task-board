@@ -17,14 +17,14 @@ export default function Header() {
           <Link href="/">
             <FaThList className={styles.logo}/>
           </Link>
-          { session?.user && (
+          {session?.user && (
             <Link href="/dashboard" className={styles.link}>
               Meu painel
             </Link>
-          ) }
+          )}
         </nav>
 
-        { status === 'loading' ? (
+        {status === 'loading' ? (
           <></>
         ) : session ? (
           <button className={styles.loginButton} onClick={() => signOut()}>
@@ -34,8 +34,9 @@ export default function Header() {
           <button className={styles.loginButton} onClick={() => signIn("google")}>
             Acessar
           </button>
-        ) }
+        )}
       </section>
     </header>
   )
 }
+
