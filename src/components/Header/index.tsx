@@ -17,9 +17,11 @@ export default function Header() {
           <Link href="/">
             <FaThList className={styles.logo}/>
           </Link>
-          <Link href="/dashboard" className={styles.link}>
-            Meu painel
-          </Link>
+          { session?.user && (
+            <Link href="/dashboard" className={styles.link}>
+              Meu painel
+            </Link>
+          ) }
         </nav>
 
         { status === 'loading' ? (
