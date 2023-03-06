@@ -37,6 +37,7 @@
 
 .box {
   background-color: #fafafa;
+  padding: 14px 44px;
   border-radius: 4px;
   transition: transform 0.4s;
 }
