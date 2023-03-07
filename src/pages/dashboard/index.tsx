@@ -8,7 +8,15 @@ import { FaTrash } from "react-icons/fa";
 
 import { db } from "../../services/firebaseConnection";
 
-import { addDoc, collection, query, orderBy, where, onSnapshot } from 'firebase/firestore'
+import {
+  addDoc,
+  collection,
+  query, orderBy,
+  where,
+  onSnapshot,
+  doc,
+  deleteDoc
+} from 'firebase/firestore';
 
 import styles from "./styles.module.css";
 import Head from "next/head";
@@ -94,6 +102,11 @@ export default function Dashboard({ user }: HomeProps) {
     alert("url copiada com sucesso");
   }
 
+  async function handleDeleteTask(id: string){
+    const docRef = doc(db, "tarefas", id)
+    await deleteDoc(docRef)
+  }
+
 
   return (
     <div className={styles.container}>
@@ -154,7 +167,10 @@ export default function Dashboard({ user }: HomeProps) {
                   <p>{item.tarefa}</p>
                 )}
 
-                <button className={styles.trashButton}>
+                <button
+                  className={styles.trashButton}
+                  onClick={() => handleDeleteTask(item.id)}
+                >
                   <FaTrash size={24} color="#ea3140" />
                 </button>
               </div>
