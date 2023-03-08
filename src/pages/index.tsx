@@ -18,7 +18,7 @@ export default function Home({ posts, comments }: HomeProps) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Tarefas+ | Organize suas tarefas de forma fácil</title>
+        <title>Task Board | Organize suas tarefas de forma fácil</title>
       </Head>
 
       <main className={styles.main}>
