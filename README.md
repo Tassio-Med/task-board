@@ -64,7 +64,9 @@ No projeto foi utilizada a seguinte paleta de cores:
   | `#909090`   |`144, 144, 144`| ![#909090](https://placehold.co/300x50/909090/909090.png)  |
   | `##0f0f0f`  |`153, 0, 153`  | ![##0f0f0f](https://placehold.co/300x50/0f0f0f/0f0f0f.png) |
 </div>
+
 ## Autor
+
 - [@tassio medeiros](https://github.com/Tassio-Med)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tassiomed98) 
