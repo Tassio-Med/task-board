@@ -45,24 +45,25 @@ git@github.com:Tassio-Med/task-board.git
 npm install
 ```
 
-<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
 ## Design
 
 Para a construção visual do projeto foi utilizado SASS e a biblioteca React-icons para adicionar ícones SVG. 
 No projeto foi utilizada a seguinte paleta de cores:
 
-
-|    <center>HEX </center>    | <center>RGB</center>         |<center>Cor <center>      |
-| ---         |---            | ---                                                        |
-| `#fff`      |`255, 255, 255`| ![#fff](https://placehold.co/300x50/fff/fff.png)           |
-| `##fafafa`  |`250, 250, 250`| ![##fafafa](https://placehold.co/300x50/fafafa/fafafa.png) |
-| `#f1f1f1`   |`241, 241, 241`| ![#f1f1f1](https://placehold.co/300x50/f1f1f1/f1f1f1.png)  |
-| `#6eafa7`   |`110, 175, 167`| ![#6eafa7](https://placehold.co/300x50/6eafa7/6eafa7.png)  |
-| `#ea3140`   |`234, 49, 64`  | ![#ea3140](https://placehold.co/300x50/ea3140/ea3140.png)  |
-| `#3183ff`   |`49, 131, 255` | ![#3183ff](https://placehold.co/300x50/3183ff/3183ff.png)  |
-| `#909090`   |`144, 144, 144`| ![#909090](https://placehold.co/300x50/909090/909090.png)  |
-| `##0f0f0f`  |`153, 0, 153`  | ![##0f0f0f](https://placehold.co/300x50/0f0f0f/0f0f0f.png) |
+<div align="center">
+  
+  |    <center>HEX </center>    | <center>RGB</center>         |<center>Cor <center>         |
+  | ---         |---            | ---                                                        |
+  | `#fff`      |`255, 255, 255`| ![#fff](https://placehold.co/300x50/fff/fff.png)           |
+  | `##fafafa`  |`250, 250, 250`| ![##fafafa](https://placehold.co/300x50/fafafa/fafafa.png) |
+  | `#f1f1f1`   |`241, 241, 241`| ![#f1f1f1](https://placehold.co/300x50/f1f1f1/f1f1f1.png)  |
+  | `#6eafa7`   |`110, 175, 167`| ![#6eafa7](https://placehold.co/300x50/6eafa7/6eafa7.png)  |
+  | `#ea3140`   |`234, 49, 64`  | ![#ea3140](https://placehold.co/300x50/ea3140/ea3140.png)  |
+  | `#3183ff`   |`49, 131, 255` | ![#3183ff](https://placehold.co/300x50/3183ff/3183ff.png)  |
+  | `#909090`   |`144, 144, 144`| ![#909090](https://placehold.co/300x50/909090/909090.png)  |
+  | `##0f0f0f`  |`153, 0, 153`  | ![##0f0f0f](https://placehold.co/300x50/0f0f0f/0f0f0f.png) |
+</div>
 ## Autor
 - [@tassio medeiros](https://github.com/Tassio-Med)
 
